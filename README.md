@@ -6,7 +6,12 @@ PurpleJS Examples
 [![Build Status](https://travis-ci.org/purplejs/purplejs-examples.svg?branch=master)](https://travis-ci.org/purplejs/purplejs-examples)
 [![License](https://img.shields.io/github/license/purplejs/purplejs-examples.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
-This repository holds various examples of how to use PurpleJS (http://purplejs.io). 
+This repository holds various examples of how to use PurpleJS (http://purplejs.io). Here's a list of the examples contained in
+this repository:
+
+* [Hello](./hello) - simple hello world application. 
+
+
 
 
 Building
