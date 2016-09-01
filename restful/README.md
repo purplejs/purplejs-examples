@@ -11,3 +11,15 @@ mock-database (in memory).
 * PUT `/persons` - adds a new person.
 * POST `/persons/{id}` - update an existing person.
 * DELETE `/persons/{id}` - delete a existing person.
+
+To build, run tests and create the zip/tar distribution (`build/distributions`):
+
+```
+../gradlew build
+```
+
+If you want to run the server in development-mode (no need for server restarts on changes), then execute the following:
+
+```
+../gradlew run
+```
