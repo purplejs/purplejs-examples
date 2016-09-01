@@ -1,7 +1,7 @@
 var t = require('/lib/testing');
 var main = require('./main');
 
-// Test get method
+// Test GET method
 t.test('test get', function () {
 
     var result = main.get({});

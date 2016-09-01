@@ -10,8 +10,7 @@ This repository holds various examples of how to use PurpleJS (http://purplejs.i
 this repository:
 
 * [Hello](./hello) - simple hello world application. 
-
-
+* [Restful](./restful) - example showing how to do restful applications.
 
 
 Building
