@@ -18,4 +18,3 @@ If you want to run the server in development-mode (no need for server restarts o
 ../gradlew run
 ```
 
-[![asciicast](https://asciinema.org/a/84492.png)](https://asciinema.org/a/84492)
