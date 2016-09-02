@@ -11,6 +11,7 @@ this repository:
 
 * [Hello](./hello) - simple hello world application. 
 * [Restful](./restful) - example showing how to do restful applications.
+* [SysInfo](./sysinfo) - example showing to integrate Java and create a library.
 
 
 Building

@@ -1,2 +1,3 @@
 include ':hello'
 include ':restful'
+include ':sysinfo'

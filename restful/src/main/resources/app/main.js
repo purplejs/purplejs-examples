@@ -1,4 +1,4 @@
-// Require the router library.
+// Create a new router.
 var router = require('/lib/router')();
 
 // Adds a filter that adds a custom JSON-based error page.
