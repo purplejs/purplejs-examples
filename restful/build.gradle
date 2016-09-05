@@ -1,5 +1,5 @@
 plugins {
-    id "io.purplejs.boot" version "0.4.0"
+    id "io.purplejs.boot" version "0.5.0"
 }
 
 repositories {
