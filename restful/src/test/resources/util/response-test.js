@@ -1,14 +1,10 @@
 var t = require('/lib/testing');
 var util = require('./response');
 
-function assertJson(actual, expected) {
-    t.assertEquals(JSON.stringify(actual, null, 2), JSON.stringify(expected, null, 2));
-}
-
 t.test('serveNotFound', function () {
     var result = util.serveNotFound('my message');
 
-    assertJson({
+    t.assertJson({
         "status": 404,
         "body": {
             "status": 404,
@@ -21,7 +17,7 @@ t.test('serveNotFound', function () {
 t.test('serveError', function () {
     var result = util.serveError('my message', 405);
 
-    assertJson({
+    t.assertJson({
         "status": 405,
         "body": {
             "status": 405,
@@ -38,7 +34,7 @@ t.test('serveJson', function () {
         b: 2
     }, 201);
 
-    assertJson({
+    t.assertJson({
         "status": 201,
         "body": {
             "a": 1,
