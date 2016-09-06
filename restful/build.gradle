@@ -2,11 +2,6 @@ plugins {
     id "io.purplejs.boot" version "0.6.0"
 }
 
-repositories {
-    mavenLocal()
-    jcenter()
-}
-
 dependencies {
     compile "io.purplejs:purplejs-router:${purplejs.version}"
 }
